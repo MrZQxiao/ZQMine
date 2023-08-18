@@ -1,0 +1,16 @@
+PODS:
+  - ZQMine (0.1.0)
+
+DEPENDENCIES:
+  - ZQMine (from `../`)
+
+EXTERNAL SOURCES:
+  ZQMine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZQMine: 3bde6cc07b9af4e4b27a723bb7993bae09589b96
+
+PODFILE CHECKSUM: 64d0803eda4f2bd45de868a894c2a660f6b7af95
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,22 @@
+{
+  "name": "ZQMine",
+  "version": "0.1.0",
+  "summary": "A short description of ZQMine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liy49/ZQMine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liy49": "895825110@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liy49/ZQMine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZQMine/Classes/**/*"
+}
