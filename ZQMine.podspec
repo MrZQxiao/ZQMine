@@ -31,12 +31,16 @@ ZQModuleDemo我的组件
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'ZQMine/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZQMine' => ['ZQMine/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Kit' do |ss|
+      ss.source_files = 'ZQMine/Classes/Kit/**/*'
+      s.dependency 'ZQFoundation'
+      ss.dependency 'ZQRouter/Router'
+  end
+
+  s.subspec 'Mediator' do |ss|
+      ss.source_files = 'ZQRouter/Module/**/*'
+      ss.dependency 'ZQMine/Kit'
+  end
+
 end
